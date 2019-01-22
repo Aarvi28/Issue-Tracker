@@ -1,0 +1,28 @@
+nav {
+  background: blue;
+}
+
+aside {
+  background-color: #1C2237;
+}
+
+main {
+  background-color: #2B3034;
+  opacity: 0.05;
+}
+
+body {
+  color: #748AA1;
+}
+
+h1, h2, h3 {
+  color: #282D32;
+}
+
+a {
+  color: #4D5AFF;
+}
+
+.active {
+  background-color: #4D5AFF;
+}
