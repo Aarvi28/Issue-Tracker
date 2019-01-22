@@ -25,3 +25,8 @@ a {
 [class$="--active"] {
   background-color: #4D5AFF;
 }
+
+.paper {
+  background-color: #FFFFFF;
+  box-shadow: -5px 5px 10px 0 rgba(30,30,30,0.05);
+}
