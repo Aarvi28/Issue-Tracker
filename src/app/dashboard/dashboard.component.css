@@ -14,3 +14,7 @@
 .dashboard-list__heading {
   padding: .5em;
 }
+
+.dashboard-container__graph {
+  width: 100%;
+}
