@@ -1,16 +1,26 @@
 <div class="app-container">
   <app-nav></app-nav>
   <main>
-    <h1 class="app-container__heading">Dashboard</h1>
-    <section class="app-container__graph paper">
-      Graph Section
+    <h1>Dashboard</h1>
+    <section class="paper">
+      <img src="../assets/graph.png"/>
     </section>
-    <section class="app-container__list">
+    <section class="dashboard-lists">
       <article class="paper">
-        List
+        <h2>High Priority</h2>
+        <hr/>
+        <div *ngFor="let i of [1, 2, 3]">
+          <app-issue-card-mini></app-issue-card-mini>
+          <hr/>
+        </div>
       </article>
       <article class="paper">
-        List
+        <h2>High Priority</h2>
+        <hr/>
+        <div *ngFor="let i of [1, 2, 3]">
+          <app-issue-card-mini></app-issue-card-mini>
+          <hr/>
+        </div>
       </article>
       <article class="paper">
         List

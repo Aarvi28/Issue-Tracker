@@ -1,12 +1,12 @@
 .app-container > main {
   display: grid;
-  grid-template-rows: 3em 1fr 1fr;
+  grid-template-rows: auto auto 1fr;
   grid-gap: 1em;
   padding: .5em 2em;
 }
 
-.app-container__list {
+.dashboard-lists {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
 }

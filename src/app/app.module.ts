@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CreateComponent } from './create/create.component';
+import { IssueCardMiniComponent } from './issue-card-mini/issue-card-mini.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CreateComponent } from './create/create.component';
     HeaderComponent,
     NavComponent,
     DashboardComponent,
-    CreateComponent
+    CreateComponent,
+    IssueCardMiniComponent
   ],
   imports: [
     BrowserModule,
