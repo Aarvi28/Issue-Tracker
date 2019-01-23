@@ -6,16 +6,8 @@
       <img src="../assets/graph.png"/>
     </section>
     <section class="dashboard-lists">
-      <article class="paper">
-        <h2>High Priority</h2>
-        <hr/>
-        <div *ngFor="let i of [1, 2, 3]">
-          <app-issue-card-mini></app-issue-card-mini>
-          <hr/>
-        </div>
-      </article>
-      <article class="paper">
-        <h2>High Priority</h2>
+      <article class="paper" *ngFor="let j of [1, 2]">
+        <h2 class="dashboard-list__heading">High Priority</h2>
         <hr/>
         <div *ngFor="let i of [1, 2, 3]">
           <app-issue-card-mini></app-issue-card-mini>

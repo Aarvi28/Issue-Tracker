@@ -1,0 +1,9 @@
+.card--mini {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 2fr 1fr;
+}
+
+.card--mini > .card__description {
+  grid-column: 1 / span 2;
+}
