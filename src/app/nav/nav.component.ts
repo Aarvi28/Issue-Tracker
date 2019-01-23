@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  selectedRoute: string;
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.url.subscribe(url => this.selectedRoute = url[0].path);
   }
 
 }
