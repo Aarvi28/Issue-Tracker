@@ -1,12 +1,12 @@
 <nav>
   <ul>
-    <li class="nav__link--active">
+    <li routerLink="" [ngClass]="{'nav__link--active' : selectedRoute === 'dashboard'}">
       Dashboard
     </li>
-    <li>
+    <li routerLink="/dashboard" [ngClass]="{'nav__link--active' : selectedRoute === 'issue'}">
       Issues
     </li>
-    <li>
+    <li routerLink="/create" [ngClass]="{'nav__link--active' : selectedRoute === 'create'}">
       Create
     </li>
   </ul>
