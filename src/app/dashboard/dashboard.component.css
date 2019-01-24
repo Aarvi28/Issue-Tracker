@@ -11,8 +11,8 @@
   grid-gap: 2em;
 }
 
-.issues-lists h2 {
-  padding: .5em;
+h2 {
+  padding: .7em 1em;
 }
 
 .graph-section > img {

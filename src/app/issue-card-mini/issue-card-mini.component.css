@@ -4,6 +4,7 @@
   grid-template-columns: 2fr 1fr;
 }
 
-.description {
+p {
   grid-column: 1 / span 2;
+  font-size: .8em;
 }

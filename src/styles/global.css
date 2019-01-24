@@ -7,7 +7,7 @@ html, body {
 .app-container {
   display: grid;
   grid-template-rows: 100%;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% auto;
   height: 100%;
 }
 
@@ -38,4 +38,24 @@ button {
 
 textarea::placeholder {
 	font-style: italic;
+}
+
+.card__date {
+  font-size: .7em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+hr {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p{
+  margin: 0;
 }
