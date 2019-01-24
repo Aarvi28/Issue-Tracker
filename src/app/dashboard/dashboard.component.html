@@ -2,12 +2,12 @@
   <app-nav></app-nav>
   <main>
     <h1>Dashboard</h1>
-    <section class="paper">
-      <img src="../assets/graph.png" class="dashboard-container__graph"/>
+    <section class="paper graph-section">
+      <img src="../assets/graph.png"/>
     </section>
-    <section class="dashboard-lists">
+    <section class="issues-lists">
       <article class="paper" *ngFor="let j of [1, 2]">
-        <h2 class="dashboard-list__heading">High Priority</h2>
+        <h2>High Priority</h2>
         <hr/>
         <div *ngFor="let i of [1, 2, 3]">
           <app-issue-card-mini></app-issue-card-mini>

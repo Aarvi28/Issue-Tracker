@@ -8,7 +8,7 @@ nav > ul {
   padding: 0
 }
 
-nav > ul > li {
+ul > li {
   border-radius: 4px;
   padding: 1em;
   cursor: pointer;

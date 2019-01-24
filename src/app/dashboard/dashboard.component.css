@@ -5,16 +5,16 @@
   padding: .5em 2em;
 }
 
-.dashboard-lists {
+.issues-lists {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
 }
 
-.dashboard-list__heading {
+.issues-lists h2 {
   padding: .5em;
 }
 
-.dashboard-container__graph {
+.graph-section > img {
   width: 100%;
 }
