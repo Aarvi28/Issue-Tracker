@@ -1,5 +1,6 @@
 header {
   background: #fff;
+  box-shadow: 0 -30px 40px 10px rgba(30,30,30);
 }
 
 nav {
@@ -10,11 +11,16 @@ main {
   background-color: #2b30340d;
 }
 
+.create-container > main {
+  background: #fff;
+  box-shadow: 0 -30px 40px 10px rgba(30,30,30,0.02);
+}
+
 body {
   color: #748AA1;
 }
 
-h1, h2 {
+h1, h2, label {
   color: #282D32;
 }
 
@@ -26,13 +32,13 @@ a {
   color: #4D5AFF;
 }
 
-[class$="--active"] {
+[class$="--active"], .submit-section > button {
   background-color: #4D5AFF;
   color: #fff;
 }
 
 .paper {
-   background-color: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: -5px 5px 10px 0 rgba(30,30,30,0.05);
 }
 
@@ -46,4 +52,9 @@ a {
 
 hr {
   border: 1px solid #EBEDF4;  
+}
+
+input, select, textarea, .attachment {
+  border: 1px solid #979797;
+  background-color: #FFFFFF;
 }
