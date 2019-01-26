@@ -40,6 +40,11 @@ textarea::placeholder {
 	font-style: italic;
 }
 
+.card_id {
+  color: black;
+  font-size: .8em;
+}
+
 .card__date {
   font-size: .7em;
 }

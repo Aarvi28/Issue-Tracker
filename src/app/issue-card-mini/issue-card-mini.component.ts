@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { card } from '../../models/card';
 
@@ -9,4 +9,5 @@ import { card } from '../../models/card';
 })
 export class IssueCardMiniComponent {
   issueData = card;
+  @Input() public showAssignee: boolean;
 }

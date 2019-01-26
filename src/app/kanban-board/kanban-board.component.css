@@ -1,16 +1,17 @@
 .app-container > main {
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: 3em 1fr;
   grid-gap: 1em;
   padding: .5em 2em;
 }
 
-.kanban-boards {
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kanban-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
-}
-
-.graph-section > img {
-  width: 100%;
 }

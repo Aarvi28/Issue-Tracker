@@ -1,17 +1,4 @@
-main {
-  display: grid;
-  grid-template-rows: 3em 1fr;
-  grid-gap: 1em;
-  padding: .5em 2em;
-}
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.issues-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2em;
-}
+h2 {
+    padding: .7em 1em;
+  }
