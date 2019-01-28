@@ -26,7 +26,7 @@ body {
   color: #748AA1;
 }
 
-h1, h2, label {
+h1, h2, label, .card__id {
   color: #282D32;
 }
 

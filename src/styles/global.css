@@ -40,8 +40,7 @@ textarea::placeholder {
 	font-style: italic;
 }
 
-.card_id {
-  color: black;
+.card__id {
   font-size: .8em;
 }
 
