@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CreateComponent } from './create/create.component';
 import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
+import { IssueDetailsComponent } from './issue-details/issue-details.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'kanban-board',
     component: KanbanBoardComponent
+  },
+  {
+    path: 'issues',
+    component: IssueDetailsComponent
   },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 ];

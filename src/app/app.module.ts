@@ -10,6 +10,7 @@ import { CreateComponent } from './create/create.component';
 import { IssueCardMiniComponent } from './issue-card-mini/issue-card-mini.component';
 import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
 import { IssuesListComponent } from './issues-list/issues-list.component';
+import { IssueDetailsComponent } from './issue-details/issue-details.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { IssuesListComponent } from './issues-list/issues-list.component';
     IssuesListComponent,
     KanbanBoardComponent,
     NavComponent,
+    IssueDetailsComponent,
   ],
   imports: [
     AppRoutingModule,
