@@ -8,21 +8,23 @@ import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CreateComponent } from './create/create.component';
 import { IssueCardMiniComponent } from './issue-card-mini/issue-card-mini.component';
+import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
 import { IssuesListComponent } from './issues-list/issues-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    NavComponent,
-    DashboardComponent,
     CreateComponent,
+    DashboardComponent,
+    HeaderComponent,
     IssueCardMiniComponent,
     IssuesListComponent,
+    KanbanBoardComponent,
+    NavComponent,
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
