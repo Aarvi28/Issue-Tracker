@@ -26,7 +26,7 @@ body {
   color: #748AA1;
 }
 
-h1, h2, label, .card__id {
+h1, h2, label, .card__id, strong {
   color: #282D32;
 }
 
@@ -80,4 +80,9 @@ h2 {
 
 p {
   font-family: 'Roboto', sans-serif;
+}
+
+.details-container .key {
+  color: #53575B;
+  opacity: 0.8;
 }

@@ -12,6 +12,7 @@ html, body {
 }
 
 .card {
+  cursor: pointer;
   padding: 1em;
 }
 
