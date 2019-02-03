@@ -6,8 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "./node_modules/sass-lint/bin/sass-lint.js -c ./sass-lint.yml -v -q",
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod && now ./dist/ --name hu-html-css --single"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,8 @@
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
+    "sass-lint": "^1.12.1",
+    "stylelint": "^9.10.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
