@@ -11,7 +11,6 @@ import { IssueCardMiniComponent } from './issue-card-mini/issue-card-mini.compon
 import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
 import { IssuesListComponent } from './issues-list/issues-list.component';
 import { IssueDetailsComponent } from './issue-details/issue-details.component';
-import { AssigneeCardComponent } from './assignee-card/assignee-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import { AssigneeCardComponent } from './assignee-card/assignee-card.component';
     KanbanBoardComponent,
     NavComponent,
     IssueDetailsComponent,
-    AssigneeCardComponent,
   ],
   imports: [
     AppRoutingModule,

@@ -15,8 +15,8 @@ form {
 }
 
 .submit-section {
-  grid-column: 2/-1;
   display: flex;
+  grid-column: 2 / -1;
   justify-content: flex-end;
 }
 
@@ -26,5 +26,5 @@ form {
 }
 
 .attachment {
-  text-align: center
+  text-align: center;
 }
